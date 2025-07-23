@@ -15,7 +15,7 @@
 
 //   const fetchOrders = async () => {
 //     try {
-//       const response = await fetch(`https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/getOrders`);
+//       const response = await fetch(`https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/getOrders`);
 //       if (!response.ok) throw new Error(`Error: ${response.statusText}`);
 //       const data = await response.json();
 //       const sortedOrders = data.orders.sort(
@@ -37,7 +37,7 @@
 
 //   const fetchReservations = async () => {
 //     try {
-//       const response = await fetch(`https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/getReservations`);
+//       const response = await fetch(`https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/getReservations`);
 //       if (!response.ok) throw new Error(`Error: ${response.statusText}`);
 //       const data = await response.json();
 //       setReservations(data.reservations);
@@ -90,7 +90,7 @@
 
 //   const handleMarkAsDelivered = async (orderId) => {
 //     try {
-//       const response = await fetch(`https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/markAsDelivered`, {
+//       const response = await fetch(`https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/markAsDelivered`, {
 //         method: "POST",
 //         headers: {
 //           "Content-Type": "application/json",
@@ -355,7 +355,7 @@
 
 //   const fetchOrders = async () => {
 //     try {
-//       const response = await fetch(`https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/getOrders`);
+//       const response = await fetch(`https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/getOrders`);
 //       if (!response.ok) throw new Error(`Error: ${response.statusText}`);
 //       const data = await response.json();
 //       const sortedOrders = data.orders.sort(
@@ -377,7 +377,7 @@
 
 //   const fetchReservations = async () => {
 //     try {
-//       const response = await fetch(`https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/getReservations`);
+//       const response = await fetch(`https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/getReservations`);
 //       if (!response.ok) throw new Error(`Error: ${response.statusText}`);
 //       const data = await response.json();
 //       setReservations(data.reservations);
@@ -430,7 +430,7 @@
 
 //   const handleMarkAsDelivered = async (orderId) => {
 //     try {
-//       const response = await fetch(`https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/markAsDelivered`, {
+//       const response = await fetch(`https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/markAsDelivered`, {
 //         method: "POST",
 //         headers: {
 //           "Content-Type": "application/json",
@@ -472,7 +472,7 @@
 //     }
  
 //     try {
-//       const response = await fetch("https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/timeDetails", {
+//       const response = await fetch("https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/timeDetails", {
 //         method: "POST",
 //         headers: {
 //           "Content-Type": "application/json",
@@ -841,7 +841,7 @@ const App = () => {
 
   const fetchOrders = async () => {
     try {
-      const response = await fetch(`https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/getOrders`);
+      const response = await fetch(`https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/getOrders`);
       if (!response.ok) throw new Error(`Error: ${response.statusText}`);
       const data = await response.json();
       const sortedOrders = data.orders.sort(
@@ -863,7 +863,7 @@ const App = () => {
 
   const fetchReservations = async () => {
     try {
-      const response = await fetch(`https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/getReservations`);
+      const response = await fetch(`https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/getReservations`);
       if (!response.ok) throw new Error(`Error: ${response.statusText}`);
       const data = await response.json();
       setReservations(data.reservations);
@@ -916,7 +916,7 @@ const App = () => {
 
   const handleMarkAsDelivered = async (orderId) => {
     try {
-      const response = await fetch(`https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/markAsDelivered`, {
+      const response = await fetch(`https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/markAsDelivered`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -958,7 +958,7 @@ const App = () => {
     }
  
     try {
-      const response = await fetch("https://5fz8cdygvi.execute-api.eu-west-3.amazonaws.com/timeDetails", {
+      const response = await fetch("https://9qgkoj3l45.execute-api.eu-west-3.amazonaws.com/timeDetails", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
